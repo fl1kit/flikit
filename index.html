@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+</head>
+<body>
+    <div id="question-counter" style="position: absolute; top: 0; left: 0; padding: 10px; font-size: 20px; background: lightgray; display: none;"></div>
+    <div id="welcome-container" class="main-content">
+        <h1 class="custom-text">Приветствуем в нашем тесте на память!</h1>
+        <p class="custom-rule"><b>Правила теста:</b></p>
+        <ul>
+            <li>Внимательно изучите каждую картинку и вопрос.</li>
+            <li>Выберите один вариант ответа для каждого вопроса.</li>
+            <li>Нажмите "Далее" для перехода к следующему вопросу.</li>
+            <li>После последнего вопроса нажмите <br> "Завершить тест" для получения результатов.</li>
+        </ul>
+        <button id="start-test">Начать тест</button>
+    </div>
+    <div id="test-container" style="display:none;">
+        <!-- Вопросы и кнопки для навигации будут добавлены сюда с помощью JavaScript -->
+    </div>
+    <button id="submit-test" style="display:none;">Завершить тест</button>
+    <div id="results-container" style="display:none;">
+        <p id="results"></p>
+        <div id="result"></div>
+    </div>
+    <footer>
+        <div class="footer-content">
+          <p class="author-name">Создатель теста: Иван Жигарев</p>
+          <p class="author-name">Социальные сети:</p>
+          <div class="social-icons">
+            <a href="https://vk.com/fl1kit" target="_blank"><img src="img/social_network/vk.png" alt="VK"></a>
+            <a href="https://t.me/Fl1kit" target="_blank"><img src="img/social_network/telegram.png" alt="Telegram"></a>
+            <a href="https://www.instagram.com//" target="_blank"><img src="img/social_network/insta.png" alt="Instagram"></a>
+            <a href="https://discord.com/channels/@me/1065675985934110790" target="_blank"><img src="img/social_network/discord.png" alt="Discord"></a>
+            <a href="https://steamcommunity.com/id/7656119843208324/" target="_blank"><img src="img/social_network/steam.png" alt="Steam"></a>
+          </div>
+        </div>
+      </footer>      
+    <script src="script.js"></script>
+</body>
+</html>
